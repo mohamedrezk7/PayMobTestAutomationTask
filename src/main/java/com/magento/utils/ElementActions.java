@@ -15,6 +15,7 @@ public class ElementActions {
         Waits.waitForElementVisible(driver,locator);
         Scrolling.scrollToElement(driver , locator);
         driver.findElement(locator).sendKeys(data);
+        LogsUtil.info("Data Sent" , data , "Im in the field", locator.toString());
     }
 
     //click
@@ -23,5 +24,6 @@ public class ElementActions {
         Waits.waitForElementClickable(driver,locator);
         Scrolling.scrollToElement(driver , locator);
         driver.findElement(locator).click();
+        LogsUtil.info("Click On the Element " ,  locator.toString());
     }
 }

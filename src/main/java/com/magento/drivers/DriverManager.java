@@ -1,5 +1,6 @@
 package com.magento.drivers;
 
+import com.magento.utils.LogsUtil;
 import org.openqa.selenium.WebDriver;
 
 import static org.testng.FileAssert.fail;
@@ -11,12 +12,16 @@ public class DriverManager {
         super();
     }
     public static WebDriver createInstance(String browserName){
+        //code
         WebDriver driver = BrowserFactory.getBrowser(browserName);
+        LogsUtil.info("Browser Created" , browserName);
         setDriver(driver);
         return getDriver();
     }
     public static WebDriver getDriver(){
         if(driverThreadLocal.get()==null){
+            //code
+            LogsUtil.error("Driver Is Null");
             fail("Driver Is Null");
         }
         return driverThreadLocal.get();

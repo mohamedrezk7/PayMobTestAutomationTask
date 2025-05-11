@@ -2,6 +2,7 @@ package com.magento.tests;
 
 import com.magento.drivers.DriverManager;
 import com.magento.pages.*;
+import com.magento.utils.BrowserActions;
 import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -57,7 +58,7 @@ public class AddTowProductsToCompareList {
         new CreateAccount(DriverManager.getDriver()).
                 enterFirstName("mohamed").
                 enterLastName("Rezq").
-                enterEmail("MohamedRezq177@gmail.com").
+                enterEmail("MohamedRezqq1211@gmail.com").
                 enterPassword("010996523mM").
                 enterConfirmPassword("010996523mM").
                 clickCreateAccountButton();
@@ -77,6 +78,7 @@ public class AddTowProductsToCompareList {
                 clickCompareProductButton();
     }
 
+
     //configurations
     @BeforeClass
     public void setUp(){
@@ -88,6 +90,6 @@ public class AddTowProductsToCompareList {
     @AfterClass
     public void tearDown(){
         //code
-        DriverManager.getDriver().quit();
+        BrowserActions.closeBrowser(DriverManager.getDriver());
     }
 }

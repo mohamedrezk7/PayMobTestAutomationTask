@@ -1,0 +1,66 @@
+2025-05-12 00:54:27 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Mohamed.Rezq\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+2025-05-12 00:54:27 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Mohamed.Rezq\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+2025-05-12 00:54:29 [main] INFO  com.magento.drivers.DriverManager - Browser Created chrome
+2025-05-12 00:54:33 [main] INFO  com.magento.utils.BrowserActions - Navigated to URL https://magento.softwaretestingboard.com/
+2025-05-12 00:54:34 [main] INFO  com.magento.utils.BrowserActions - Navigated to URL https://magento.softwaretestingboard.com/
+2025-05-12 00:54:34 [main] INFO  com.magento.utils.Waits - Waiting for element To Be Clickable By.xpath: /html/body/div[2]/header/div[1]/div/ul/li[3]/a
+2025-05-12 00:54:34 [main] INFO  com.magento.utils.Waits - Waiting for element To Be Visible By.xpath: /html/body/div[2]/header/div[1]/div/ul/li[3]/a
+2025-05-12 00:54:34 [main] INFO  com.magento.utils.Waits - Waiting for element To Be Present By.xpath: /html/body/div[2]/header/div[1]/div/ul/li[3]/a
+2025-05-12 00:54:35 [main] INFO  com.magento.utils.Scrolling - Scrolling to element By.xpath: /html/body/div[2]/header/div[1]/div/ul/li[3]/a
+2025-05-12 00:54:36 [main] INFO  com.magento.utils.ElementActions - Click On the Element  By.xpath: /html/body/div[2]/header/div[1]/div/ul/li[3]/a
+2025-05-12 00:54:36 [main] INFO  com.magento.utils.Waits - Waiting for element To Be Visible By.id: firstname
+2025-05-12 00:54:36 [main] INFO  com.magento.utils.Waits - Waiting for element To Be Present By.id: firstname
+2025-05-12 00:54:36 [main] INFO  com.magento.utils.Scrolling - Scrolling to element By.id: firstname
+2025-05-12 00:54:36 [main] INFO  com.magento.utils.ElementActions - Data Sent mohamed Im in the field By.id: firstname
+2025-05-12 00:54:36 [main] INFO  com.magento.utils.Waits - Waiting for element To Be Visible By.id: lastname
+2025-05-12 00:54:36 [main] INFO  com.magento.utils.Waits - Waiting for element To Be Present By.id: lastname
+2025-05-12 00:54:36 [main] INFO  com.magento.utils.Scrolling - Scrolling to element By.id: lastname
+2025-05-12 00:54:36 [main] INFO  com.magento.utils.ElementActions - Data Sent Rezq Im in the field By.id: lastname
+2025-05-12 00:54:36 [main] INFO  com.magento.utils.Waits - Waiting for element To Be Visible By.id: email_address
+2025-05-12 00:54:36 [main] INFO  com.magento.utils.Waits - Waiting for element To Be Present By.id: email_address
+2025-05-12 00:54:36 [main] INFO  com.magento.utils.Scrolling - Scrolling to element By.id: email_address
+2025-05-12 00:54:37 [main] INFO  com.magento.utils.ElementActions - Data Sent MohamedRezqq1211@gmail.com Im in the field By.id: email_address
+2025-05-12 00:54:37 [main] INFO  com.magento.utils.Waits - Waiting for element To Be Visible By.id: password
+2025-05-12 00:54:37 [main] INFO  com.magento.utils.Waits - Waiting for element To Be Present By.id: password
+2025-05-12 00:54:37 [main] INFO  com.magento.utils.Scrolling - Scrolling to element By.id: password
+2025-05-12 00:54:37 [main] INFO  com.magento.utils.ElementActions - Data Sent 010996523mM Im in the field By.id: password
+2025-05-12 00:54:37 [main] INFO  com.magento.utils.Waits - Waiting for element To Be Visible By.id: password-confirmation
+2025-05-12 00:54:37 [main] INFO  com.magento.utils.Waits - Waiting for element To Be Present By.id: password-confirmation
+2025-05-12 00:54:37 [main] INFO  com.magento.utils.Scrolling - Scrolling to element By.id: password-confirmation
+2025-05-12 00:54:37 [main] INFO  com.magento.utils.ElementActions - Data Sent 010996523mM Im in the field By.id: password-confirmation
+2025-05-12 00:54:37 [main] INFO  com.magento.utils.Waits - Waiting for element To Be Clickable By.xpath: // button [@class = "action submit primary"]
+2025-05-12 00:54:37 [main] INFO  com.magento.utils.Waits - Waiting for element To Be Visible By.xpath: // button [@class = "action submit primary"]
+2025-05-12 00:54:37 [main] INFO  com.magento.utils.Waits - Waiting for element To Be Present By.xpath: // button [@class = "action submit primary"]
+2025-05-12 00:54:37 [main] INFO  com.magento.utils.Scrolling - Scrolling to element By.xpath: // button [@class = "action submit primary"]
+2025-05-12 00:54:41 [main] INFO  com.magento.utils.ElementActions - Click On the Element  By.xpath: // button [@class = "action submit primary"]
+2025-05-12 00:54:42 [main] INFO  com.magento.utils.BrowserActions - Navigated to URL https://magento.softwaretestingboard.com/
+2025-05-12 00:54:42 [main] INFO  com.magento.utils.Waits - Waiting for element To Be Clickable By.xpath: //a[contains(@class, 'product-item-link') and contains(text(), 'Radiant Tee')]
+2025-05-12 00:54:42 [main] INFO  com.magento.utils.Waits - Waiting for element To Be Visible By.xpath: //a[contains(@class, 'product-item-link') and contains(text(), 'Radiant Tee')]
+2025-05-12 00:54:42 [main] INFO  com.magento.utils.Waits - Waiting for element To Be Present By.xpath: //a[contains(@class, 'product-item-link') and contains(text(), 'Radiant Tee')]
+2025-05-12 00:54:42 [main] INFO  com.magento.utils.Scrolling - Scrolling to element By.xpath: //a[contains(@class, 'product-item-link') and contains(text(), 'Radiant Tee')]
+2025-05-12 00:54:43 [main] INFO  com.magento.utils.ElementActions - Click On the Element  By.xpath: //a[contains(@class, 'product-item-link') and contains(text(), 'Radiant Tee')]
+2025-05-12 00:54:43 [main] INFO  com.magento.utils.Waits - Waiting for element To Be Clickable By.xpath: //*[@id="maincontent"]/div[2]/div/div[1]/div[5]/div/a[2]
+2025-05-12 00:54:43 [main] INFO  com.magento.utils.Waits - Waiting for element To Be Visible By.xpath: //*[@id="maincontent"]/div[2]/div/div[1]/div[5]/div/a[2]
+2025-05-12 00:54:43 [main] INFO  com.magento.utils.Waits - Waiting for element To Be Present By.xpath: //*[@id="maincontent"]/div[2]/div/div[1]/div[5]/div/a[2]
+2025-05-12 00:54:44 [main] INFO  com.magento.utils.Scrolling - Scrolling to element By.xpath: //*[@id="maincontent"]/div[2]/div/div[1]/div[5]/div/a[2]
+2025-05-12 00:54:45 [main] INFO  com.magento.utils.ElementActions - Click On the Element  By.xpath: //*[@id="maincontent"]/div[2]/div/div[1]/div[5]/div/a[2]
+2025-05-12 00:54:46 [main] INFO  com.magento.utils.BrowserActions - Navigated to URL https://magento.softwaretestingboard.com/
+2025-05-12 00:54:46 [main] INFO  com.magento.utils.Waits - Waiting for element To Be Clickable By.xpath: //a[contains(@class, 'product-item-link') and contains(text(), 'Breathe-Easy Tank')]
+2025-05-12 00:54:46 [main] INFO  com.magento.utils.Waits - Waiting for element To Be Visible By.xpath: //a[contains(@class, 'product-item-link') and contains(text(), 'Breathe-Easy Tank')]
+2025-05-12 00:54:46 [main] INFO  com.magento.utils.Waits - Waiting for element To Be Present By.xpath: //a[contains(@class, 'product-item-link') and contains(text(), 'Breathe-Easy Tank')]
+2025-05-12 00:54:46 [main] INFO  com.magento.utils.Scrolling - Scrolling to element By.xpath: //a[contains(@class, 'product-item-link') and contains(text(), 'Breathe-Easy Tank')]
+2025-05-12 00:54:48 [main] INFO  com.magento.utils.ElementActions - Click On the Element  By.xpath: //a[contains(@class, 'product-item-link') and contains(text(), 'Breathe-Easy Tank')]
+2025-05-12 00:54:48 [main] INFO  com.magento.utils.Waits - Waiting for element To Be Clickable By.xpath: //*[@id="maincontent"]/div[2]/div/div[1]/div[5]/div/a[2]
+2025-05-12 00:54:48 [main] INFO  com.magento.utils.Waits - Waiting for element To Be Visible By.xpath: //*[@id="maincontent"]/div[2]/div/div[1]/div[5]/div/a[2]
+2025-05-12 00:54:48 [main] INFO  com.magento.utils.Waits - Waiting for element To Be Present By.xpath: //*[@id="maincontent"]/div[2]/div/div[1]/div[5]/div/a[2]
+2025-05-12 00:54:48 [main] INFO  com.magento.utils.Scrolling - Scrolling to element By.xpath: //*[@id="maincontent"]/div[2]/div/div[1]/div[5]/div/a[2]
+2025-05-12 00:54:50 [main] INFO  com.magento.utils.ElementActions - Click On the Element  By.xpath: //*[@id="maincontent"]/div[2]/div/div[1]/div[5]/div/a[2]
+2025-05-12 00:54:50 [main] INFO  com.magento.utils.Waits - Waiting for element To Be Clickable By.xpath: /html/body/div[2]/header/div[2]/ul/li/a
+2025-05-12 00:54:50 [main] INFO  com.magento.utils.Waits - Waiting for element To Be Visible By.xpath: /html/body/div[2]/header/div[2]/ul/li/a
+2025-05-12 00:54:50 [main] INFO  com.magento.utils.Waits - Waiting for element To Be Present By.xpath: /html/body/div[2]/header/div[2]/ul/li/a
+2025-05-12 00:54:50 [main] INFO  com.magento.utils.Waits - Waiting for element To Be Present By.xpath: /html/body/div[2]/header/div[2]/ul/li/a
+2025-05-12 00:54:50 [main] INFO  com.magento.utils.Scrolling - Scrolling to element By.xpath: /html/body/div[2]/header/div[2]/ul/li/a
+2025-05-12 00:54:51 [main] INFO  com.magento.utils.ElementActions - Click On the Element  By.xpath: /html/body/div[2]/header/div[2]/ul/li/a
+2025-05-12 00:54:51 [main] INFO  com.magento.utils.BrowserActions - Closing the Browser
