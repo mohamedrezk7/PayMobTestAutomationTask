@@ -57,7 +57,7 @@ public class AddTowProductsToCompareList {
         new CreateAccount(DriverManager.getDriver()).
                 enterFirstName("mohamed").
                 enterLastName("Rezq").
-                enterEmail("MohamedRezq1@gmail.com").
+                enterEmail("MohamedRezq177@gmail.com").
                 enterPassword("010996523mM").
                 enterConfirmPassword("010996523mM").
                 clickCreateAccountButton();
